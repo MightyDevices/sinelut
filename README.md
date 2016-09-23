@@ -61,7 +61,7 @@ Output:
 0x8001, 0x89c0, 0xa57f, 0xcf05, 0x0000, 0x30fb, 0x5a81, 0x7640,
 ```
 
-Ex. 3: **Generate a sine (with a single period of 8 samples and amplitude of 1000) in 64 element array that has 16 32-bit elements. Add an offset of 10 to every sample. Format the output so that it has 4 entries per line.**
+Ex. 3: **Generate a sine (with a single period of 8 samples and amplitude of 1000) in 64 element array that has 64 32-bit elements. Add an offset of 10 to every sample. Format the output so that it has 4 entries per line.**
 
 
 Input:
