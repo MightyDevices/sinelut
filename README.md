@@ -1,7 +1,7 @@
 # sinelut
 Command line Sine look-up table generator
 
-Simple software that allows to create sine/cosine valued LUTs to be created. Poerfect for testing audio signal paths involving Digital to Analog converters.
+Simple software that allows to create sine/cosine valued LUTs to be created. Perfect for testing audio signal paths involving Digital to Analog converters.
 
 # How to build
 
