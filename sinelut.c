@@ -14,7 +14,7 @@ void usage(char *pname)
         "usage: %s [options]                                                \n",
         pname);
         
-    /* split in two calls so that -Woverlengrh-strings does not complain */
+    /* split in two calls so that -Woverlength-strings does not complain */
     fprintf(stderr,
         "  -n \t\t number of array elements                                 \n"
         "  -a \t\t amplitude (def. max)                                     \n"
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     /* number of elements, amplitude, period, starting angle, offset, bit 
      * width  */
     int n = 0, a = -1, p = 0, s = 0, o = 0, b = 8, l = 8;
-    /* used for iterating over array elements, number of elements per line */
+    /* used for iterating over array elements*/
     int i;
     /* output format string */
     char of[20];
